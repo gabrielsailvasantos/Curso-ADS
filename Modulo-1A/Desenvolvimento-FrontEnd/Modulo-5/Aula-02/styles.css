@@ -1,4 +1,10 @@
 /* Propriedades gerais */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
@@ -8,7 +14,8 @@ body {
 
 h1 {
     text-align: center;
-    color: #4CAF50;
+    color: #ffffff;
+    width: auto;
 }
 
 /* Estilo para as caixas de gradiente */
@@ -19,6 +26,7 @@ h1 {
     color: #fff;
     text-align: center;
     border-radius: 8px;
+    box-shadow: 8px 8px rgb(190, 144, 144);
 }
 
 
@@ -42,4 +50,8 @@ h1 {
     color-stop: Ponto de parada das cores, onde cada cor começa ou termina. */
 .radial {
     background: radial-gradient(circle, #ff7e5f, #feb47b);
+}
+
+.header{
+    background: linear-gradient(to bottom, #333, #c2bfbf);
 }

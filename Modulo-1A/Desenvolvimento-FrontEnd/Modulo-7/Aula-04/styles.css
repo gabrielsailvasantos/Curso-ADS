@@ -65,7 +65,7 @@ body {
 /* Gradiente Diagonal */
 .diagonal-gradient {
     /* Define um fundo com gradiente linear de 45 graus (diagonal) com duas cores */
-    background: linear-gradient(45deg, #ff7e5f, #feb47b);
+    background: linear-gradient(45deg, #ff0000, #0000ff);
 }
 
 /* Gradiente no Texto */
